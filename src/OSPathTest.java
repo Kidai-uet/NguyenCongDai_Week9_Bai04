@@ -8,6 +8,7 @@ public class OSPathTest {
   public void testFilePath() {
     String windowsHardcodedPath = "logs\\transaction.log";
 
+
     String systemPath = "logs" + File.separator + "transaction.log";
 
     assertEquals(windowsHardcodedPath, systemPath, "Lỗi: Đường dẫn không khớp trên hệ điều hành này!");
